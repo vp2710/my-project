@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-height: 3629px;
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  color: #161515;
+  font-weight: 300;
+}
+
+.container {
+  width: 1430px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  display: flex;
+  background-color: #f8f8f8;
+  padding: 0 132px 211px;
+}
+
+.hero-content {
+  margin-top: 100px;
+}
+
+.hero-img {
+}
+
+.date {
+  font-size: 24px;
+}
+
+.hero-heading {
+  margin-top: 53px;
+  font-size: 250px;
+  color: #272727;
+  font-weight: 300;
+}
+
+.hero-description {
+  margin-top: 43px;
+  font-size: 32px;
+  max-width: 575px;
+  line-height: 155%;
+}
+
+.price {
+  display: flex;
+  margin-top: 61px;
+}
+
+.buy-btn {
+  background-color: #161515;
+  padding: 26px 72px;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  border: none;
+  text-decoration: none;
+}
+
+.price-formatted {
+  padding: 30px 28px;
+  background-color: white;
+  color: #272727;
+  font-size: 32px;
+  font-weight: 300;
+  vertical-align: bottom;
+}
+
+.first-watch {
+  margin: 0 230 219 830;
+  flex-shrink: 0;
+}
+
+.secondary-section {
+  width: 532px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tittle {
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 186%;
+}
+
+.header {
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 112.5%; /* 81px */
+}
+
+.product-card {
+  margin-top: 84px;
+}
+
+.second-watch {
+  background: #f8f8f8;
+  width: 500px;
+  height: 500px;
+}
+
+.main-first {
+  margin-top: 67px;
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.description-first {
+  margin-top: 17px;
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 155%;
+}
+
+.third-watch {
+  margin-top: 85px;
+  background: #f8f8f8;
+}
+
+.main-secondary {
+  margin-top: 67px;
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.description-secondary {
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 155%;
+}
+
+.product-description {
+  margin-top: 59px;
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 186%;
+  border-bottom: 1px solid transparent;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.pdscr {
+  margin-top: 49px;
+  color: var(--, #161515);
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.link-more {
+  color: #bb8b5d;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 170%;
+  text-decoration-line: underline;
+  text-decoration: none;
+}
+
+.link-more:hover {
+  color: #00ffea;
+}
+
+.product-description:hover {
+  color: #00ffea;
+  border-bottom: 1px solid #1dc9e7;
+  justify-content: center;
+  display: inline-flex;
+}
